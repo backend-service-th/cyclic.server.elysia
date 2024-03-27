@@ -3,7 +3,7 @@
   "version": "1.0.50",
   "type": "module",
   "scripts": {
-    "start": "bun run app/index.ts"
+    "start": "npx --no-install bun@latest run app/index.ts"
   },
   "dependencies": {
     "@elysiajs/cors": "^1.0.2",

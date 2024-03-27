@@ -3,8 +3,7 @@
   "version": "1.0.50",
   "type": "module",
   "scripts": {
-    "start": "bun run app/index.ts",
-    "dev": "bun run app/index.ts"
+    "start": "bun run app/index.ts"
   },
   "dependencies": {
     "@elysiajs/cors": "^1.0.2",
@@ -13,7 +12,8 @@
     "uuidv7": "^0.6.3"
   },
   "devDependencies": {
-    "bun": "latest"
+    "bun": "latest",
+    "bun-types": "latest"
   },
   "module": "app/index.js",
   "bun-create": {

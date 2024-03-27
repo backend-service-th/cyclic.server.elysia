@@ -1,6 +1,7 @@
 {
   "name": "wetoon.backend",
   "version": "1.0.50",
+  "type": "module",
   "scripts": {
     "start": "app/index.ts",
     "dev": "bun run app/index.ts"

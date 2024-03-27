@@ -11,6 +11,9 @@
     "firebase-admin": "^12.0.0",
     "uuidv7": "^0.6.3"
   },
+  "devDependencies": {
+    "bun": "latest"
+  },
   "module": "app/index.js",
   "bun-create": {
     "start": "bun run app/index.ts"
